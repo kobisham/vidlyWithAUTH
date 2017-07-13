@@ -4,11 +4,12 @@ using System.Linq;
 using System.Web;
 using vidlyWithAUTH.Models;
 
+
 namespace vidlyWithAUTH.ViewModels
 {
-    public class RandomMovieViewModel
+    public class CustomerFormViewModel
     {
-        public Movie Movie { get; set; }
-        public List<Customer> Customers { get; set; }
+        public IEnumerable<MembershipType> MembershipTypes { get; set; }
+        public Customer Customer { get; set; }
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using vidlyWithAUTH.Models;
 
-namespace vidly.Models
+namespace vidlyWithAUTH.Models
 {
     public class Movie
     {
